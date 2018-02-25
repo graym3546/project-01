@@ -1,0 +1,11 @@
+#stock{
+	width: 900px;
+	height: 600px;
+	border:thin grey solid;
+	text-align: center;
+}
+
+body {
+	text-align: center;
+	font-family: verdana;
+}
