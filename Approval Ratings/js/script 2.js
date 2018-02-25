@@ -8,7 +8,7 @@ d3.csv('https://gray.milmine.yoobee.net.nz/Approval_Ratings/Approval_Ratings.csv
 	function(d){
 
 		//data transformation - data cleansing
-		var parseDate = d3.timeParse('%Y-%m-%d');
+		var parseDate = d3.timeParse('%Y-%m-%d'); // comment again!!
 
 		return {
 			date: parseFloat(d.date),

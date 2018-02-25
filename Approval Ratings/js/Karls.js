@@ -7,7 +7,7 @@ d3.csv('http://karl.olsen.yoobee.net.nz/csv-demo/XRO.NZ.csv',
 	function(d){
 
 		//data transformation - data cleansing
-		var parseDate = d3.timeParse('%Y-%m-%d'); // comment
+		var parseDate = d3.timeParse('%Y-%m-%d'); // commenthgjghjg
 
 		return {
 			date: parseDate(d.Date),
